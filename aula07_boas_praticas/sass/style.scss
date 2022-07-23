@@ -1,0 +1,18 @@
+/* Ordem de herança*/
+
+//Colors
+@import "../variables/colors/colors.scss";
+
+//Commons
+@import "../variables/common/common.scss";
+
+
+/*Cadastro e login estáo usando componentes herdados da commons*/
+//Cadastro
+@import "./pages/cadastro.scss";
+
+//Login
+@import "./pages/login.scss";
+
+
+

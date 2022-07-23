@@ -1,0 +1,23 @@
+/* Aqui adiciona todos os elementos comuns para todas as paginas*/
+
+#title-home {
+    font-size: 44px;
+    font-family: sans-serif;
+}
+
+/*cor do botao*/
+.btn  {
+    width: 95px;
+    padding: 10px 0px;
+    background-color: $btn-bg;
+    color: white;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+@mixin text-style($color, $font-size, $font-family) {
+    color: $color;
+    font-size: $font-size;
+    font-family: $font-family;
+}
